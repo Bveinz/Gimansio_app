@@ -1,0 +1,72 @@
+#uno{
+    color: white;
+    margin-top: 1px;
+    visibility: hidden;
+}
+
+#navbar{
+    background-color: #282c34;
+  }
+  
+#titulo1{
+    color: #61dafb;
+}
+ 
+#l-nav:hover{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 200;
+    font-style: oblique;
+    color: aqua;
+}
+
+#l-nav{
+    color: white;
+} 
+
+#c-item{
+    background-color: #61dafb;
+}
+
+#l.nav {
+    width: 100%;
+}
+@media (max-width: 500px) {
+    #titulo1{
+        font-weight: 700;   
+    }
+    #uno{
+        visibility: visible;
+        margin-left:px;
+        margin-right: px;
+    }   
+}
+
+
+#menu{
+    background-color: wheat;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+#panel_title{
+    color: black;
+    text-align: center;
+    text-decoration: dotted;
+    background-color: #61dafb;
+}
+
+#panel_container{
+    margin-top: 10rem;
+    margin-left: 0%;
+}
+
+#boton{
+    margin-top: 1rem;
+    text-align: center;
+    font-size: large;
+    font-weight: 600;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aliceblue;
+    background-color: black;
+}
