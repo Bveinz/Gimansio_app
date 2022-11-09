@@ -70,3 +70,49 @@
     color: aliceblue;
     background-color: black;
 }
+
+#fondo{
+    background-color: #282c34;
+}
+
+
+#dash{
+    color:white
+}
+
+#menu_b{
+    margin-top: 1rem;
+    background-color: aliceblue;
+    
+}
+
+#b_ds{
+    background-color:#61dafb;
+    color: black;
+    font-weight: bold;
+    font-size: larger;
+    
+}
+
+#salir{
+    background-color:red
+}
+
+#title_panel{
+    color: white;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    
+}
+
+#render{
+    background-color:#61dafb;
+    margin-top: 5rem;
+    border-radius: 1rem;
+}
+
+#render_title{
+    
+}
