@@ -6,7 +6,6 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import axios from 'axios';
 
-
 const Register = () => {
     const [usuario, setUsuario] = useState({nombre:'', apellido_paterno:'',apellido_materno: '', rut: '', fecha_nacimiento:'', password:''}) 
 
@@ -64,6 +63,7 @@ const Register = () => {
                     />
                     <Form.Label>Rut</Form.Label>
                     <Form.Control
+                     
                         value={usuario.rut}
                         name='rut'
                         type='texto'
@@ -88,6 +88,7 @@ const Register = () => {
                         onChange={inputChange}
                         required
                     />
+                    
                     <Button variant='success' type='submit'>Registrarme</Button>
                 </Form>         
             </Col>
