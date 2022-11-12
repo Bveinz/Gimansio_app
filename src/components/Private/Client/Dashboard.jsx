@@ -12,7 +12,7 @@ import Perfil from './MisDatos/Perfil';
 
 
 const Dashboard = () => {
-  const [active, setActive] = useState("FirstCard");
+  const [active, setActive] = useState("Planes");
 
   return (
     <div>

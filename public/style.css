@@ -116,3 +116,31 @@
 #render_title{
     
 }
+
+#plan{
+    background-color: darkorange;
+    margin: 1rem;
+    color: white;
+    font-size: 0.8rem;
+    align-items: center;
+}
+
+#contenedor_planes{
+    align-items: center;
+    text-align: center;
+}
+#btn_planes{
+    background-color:black;
+    font-size: small;
+    margin: 5%;
+
+}
+
+#title_planes{
+    text-align: center;
+    margin: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
+    background-color: darkblue;
+    border-radius: 100px;
+}

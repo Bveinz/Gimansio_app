@@ -5,10 +5,11 @@ import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import { useState } from 'react';
 import Suscripcion from './Suscripcion';
+import MiPlan from './MiPlan';
 
 const SeleccionPlan = () => { 
 
-      const [active, setActive] = useState("FirstCard");
+      const [active, setActive] = useState("VerPlanes");
 
 
   return (
@@ -24,7 +25,7 @@ const SeleccionPlan = () => {
                   <Card id = "menu_b"><Button  onClick={() => setActive("Contratar")}  id = "b_ds">Seleccionar Plan</Button></Card>
             </Col>
         </Row>
-        {active === "Suscripcion" && <Suscripcion/>}
+        {active === "Suscripcion" && <MiPlan/>}
         {active === "VerPlanes" && <Suscripcion/>}
         {active === "Contratar" && <Suscripcion/>}
 
